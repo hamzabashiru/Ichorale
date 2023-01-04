@@ -1,0 +1,37 @@
+.navbar-nav {
+  font-family: Gill sans;
+}
+ul li:hover {
+  transform: scale(1.1);
+}
+
+.stake{
+  object-fit: cover;
+  height: 45vh;
+  width: 100%;
+  border-radius: 10px;
+}
+.stakehead{
+  text-align: center;
+  font-family: 'Segoe UI';
+}
+.card {
+  border-radius: 10%;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 5%;
+  height: 45vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.video-fluid {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}
+$row
