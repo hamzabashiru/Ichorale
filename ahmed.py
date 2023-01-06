@@ -1,9 +1,11 @@
 print("WELCOME TO BRIGHTON UNIVERSITY, LOGIN WITH YOUR DETAILS")
 userName=input()
 password=input()
-if len(userName)==0 and len(password)==0:
-    print("Error: No string entered")
-while len(userName)<12 and len(password)<12:
+while len(userName)==0 or len(password)==0:
+    print("Error: Please ensure both Username and Password string are being entered")
+    userName=input()
+    password=input()
+while len(userName)<12 or len(password)<12:
     print("Username or Password is incorrect: please re-login")
     userName=input()
     password=input()
